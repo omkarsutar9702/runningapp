@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tracker App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="logo">
+        <img src="running.png" alt="running app photo" class="center">
+    </div>
+    <form>
+        <label for="entry">Number Of Kilometers Today</label>
+        <br />
+        <input type="number" id="entry" step="0.1">
+        <br />
+        <button type="submit">Add</button>
+    </form>
+    <hr />
+    <section class="entrieswarrper">
+        <h3>Last 7 Days</h3>
+        <ul id="last7days">
+            <li>-</li>
+            <li>-</li>
+            <li>-</li>
+            <li>-</li>
+            <li>-</li>
+            <li>-</li>
+            <li>-</li>
+        </ul>
+    </section>
+    <section class="data">
+        <div>
+            <label for="total">Total</label>
+            <span id="total"></span>
+        </div>
+        <div>
+            <label for="average">Average Distance</label>
+            <span id="average"></span>
+        </div>
+        <div>
+            <label for="high">High For This Week</label>
+            <span id="high"></span>
+        </div>
+    </section>
+    <section class="progress">
+        <h3>Weekly Progress: <span id="totalprogress"></span> / 
+            <span id="target"></span> KM
+        </h3>
+        <div class="progresscircle">
+            <div id="circle">
+                <div id="center">
+                    
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
