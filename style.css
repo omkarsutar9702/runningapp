@@ -1,0 +1,104 @@
+html{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(24, 31, 41);
+    color:rgb(223, 212, 241);
+}
+body{
+    max-width: 30rem;
+    margin: 2rem auto;
+    background: linear-gradient(#474747,#161616);
+    padding: 1rem;
+    border-radius:25px;
+    box-shadow: 0 10px 10px rgb(165, 170, 170);
+    font-size: 1.5rem;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 340px;
+}
+
+form{
+    text-align: center;
+}
+input[type="number"]{
+    font-family: inherit;
+    background: #faf9f9;
+    width: 80%;
+    border: none;
+    margin:1rem 0;
+    padding:0.5rem 0;
+    text-align: center;
+    font-size:1rem;
+}
+
+button{
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 50px;
+    background: #47c7b2;
+    margin:0.8rem;
+}
+ul{
+    padding:0;
+    display:flex;
+    list-style:none;
+    justify-content: space-between;
+}
+li{
+    border: 1px solid;
+    padding:1rem;
+}
+.entrieswarrper{
+    padding:1rem 0;
+    margin: 0;
+    text-align: center;
+    font-weight: lighter;
+}
+.data div{
+    background:#161616;
+    display:flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+    padding: 1rem;
+
+}
+
+.progress{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.progress{
+    font-size:1.3rem;
+    font-weight:lighter;
+}
+
+.progresscircle{
+    display:flex;
+    justify-content: center;
+}
+
+#circle{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    /* background: conic-gradient(#317212 50% , #161616 50%); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#center{
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    background: #161616;
+}
